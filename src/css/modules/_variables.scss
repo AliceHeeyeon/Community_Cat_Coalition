@@ -1,0 +1,28 @@
+// color
+$main-color: #FF6B00;
+$light-color: #FFE9D9;
+$font-color : #253D32;
+$body-font-color: #78847D;
+
+// padding
+$page-padding: 190px 100px 100px;
+
+@mixin button-style {
+    padding: 20px 50px;
+    border-radius: 30px;
+    border: none;
+    font-size: 16px;
+    color: white;
+    box-shadow: 8px 8px 10px rgba(17, 19, 19, 0.58);
+    transition: ease 235ms all;
+    cursor: pointer;
+
+    &:hover {
+        box-shadow: rgba(0, 0, 0, .3) 2px 8px 8px -5px;
+        transform: translate3d(0, 2px, 0);
+    }
+
+    &:focus {
+        box-shadow: rgba(0, 0, 0, .3) 2px 8px 4px -6px;
+    }
+}
