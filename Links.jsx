@@ -13,7 +13,7 @@ import Adoptions from "./src/pages/Adoptions"
 import SingleArticle from "./src/components/SingleArticle"
 import SingleDonation from "./src/components/SingleDonation"
 import SingleAdoption from "./src/components/SingleAdoption"
-import Locations from "./src/components/locations"
+import Locations from "./src/components/Locations"
 
 const Links = () => {
   return (
