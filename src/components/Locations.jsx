@@ -1,8 +1,7 @@
 import {useEffect, useState} from 'react'
-import { Link, useNavigate, useParams } from 'react-router-dom'
+import { useNavigate, useParams } from 'react-router-dom'
 import axios from 'axios'
 import { useImage } from '../hooks/useImageContext'
-import Loading from './Loading'
 import { MdArrowBackIosNew } from 'react-icons/md'
 
 const baseUrl = import.meta.env.VITE_WP_API_BASEURL
